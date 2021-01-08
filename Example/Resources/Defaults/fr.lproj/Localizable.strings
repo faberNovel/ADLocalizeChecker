@@ -1,0 +1,40 @@
+"regular_key" = "FABERNOVEL";
+"regular_key_2" = "FABERNOVEL %1$@";
+"regular_key_3" = "FABERNOVEL
+%1$@ %2$@ %3$@";
+"regular_key_4" = "%1$dh%2$02d";
+"formatted_key_redundant_call" = "FABERNOVEL %1$@";
+"ad_utils_attributed_string_four_args_format" = "FABERNOVEL %1$@ %2$@ %4$@ %3$@";
+"ad_utils_attributed_string_three_args_format" = "FABERNOVEL %1$@ %2$@ %3$@";
+"ad_utils_attributed_string_two_args_format" = "FABERNOVEL %1$@ %2$@";
+"ad_utils_attributed_string_single_arg_format" = "FABERNOVEL %1$@";
+"custom_pattern_key" = "FABERNOVEL";
+"bad_arguments_count_key" = "FABERNOVEL %1$@ %2$@";
+"bad_arguments_count_key_2" = "FABERNOVEL %1$@";
+"bad_formatted_key_usage" = "FABERNOVEL %1$@ %2$@ %3$@";
+"ad_utils_attributed_string_format_bad_arguments_count" = "FABERNOVEL %1$@ %2$@";
+
+"unstranlated_key" = "unstranlated_key";
+"unstranlated_key_bypassed" = "unstranlated_key_bypassed"; // bypass-untranslated-error bypass-unused-error
+
+"unusued_key" = "FABERNOVEL";
+"unusued_key_2" = "FABERNOVEL"; // bypass-custom-unused-error
+
+"bad_pattern_key" = "FABERNOVEL";
+"bad_pattern_key_2" = "FABERNOVEL";
+
+"redundant_key" = "FABERNOVEL";
+"redundant_key" = "FABERNOVEL";
+
+"bad_format_key" = "FABERNOVEL %$1@";
+"bad_format_key_2" = "FABERNOVEL %@";
+"bad_format_key_3" = "FABERNOVEL %1$@ %$2@";
+
+"bad_arguments_format" = "FABERNOVEL %2$@ %2$@";
+"bad_arguments_format_2" = "FABERNOVEL %1$d %1$@";
+
+"key_to_bypass" = "key_to_bypass"; // bypass-untranslated-error
+
+"argument1" = "arg1";
+"argument2" = "arg2";
+"argument3" = "arg3";

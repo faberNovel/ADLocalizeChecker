@@ -1,0 +1,31 @@
+PODS:
+  - ADLocalizeChecker (0.6.4)
+  - ADUtils (11.0.0):
+    - ADUtils/objc (= 11.0.0)
+  - ADUtils/objc (11.0.0):
+    - ADUtils/Swift
+  - ADUtils/Swift (11.0.0)
+  - SwiftLint (0.42.0)
+
+DEPENDENCIES:
+  - ADLocalizeChecker (from `../ADLocalizeChecker.podspec`)
+  - ADUtils (~> 11.0)
+  - SwiftLint (~> 0.42)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ADUtils
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  ADLocalizeChecker:
+    :podspec: "../ADLocalizeChecker.podspec"
+
+SPEC CHECKSUMS:
+  ADLocalizeChecker: a55db4c335e9c0d8edda66fb0797b7a8305c94b7
+  ADUtils: 5f5f1ad7a097dcf7104f9c160bc23a30d7943eb8
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
+
+PODFILE CHECKSUM: c3884228889ed0b1652282e2cc4c263c7e9499e9
+
+COCOAPODS: 1.9.3
