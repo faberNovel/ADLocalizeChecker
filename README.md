@@ -4,11 +4,11 @@
 
 To run the example project:
  - clone the repo.
- - run `bundle install` and  `cd Example && bundle install && bundle exec pod install` 
+ - run `cd Example && bundle install && bundle exec pod install` 
 
  To use the example project in developpement mode:
  - run `bundle install` and  `make examplebuild` from root folder.
- - cd  `Example/`
+ - `cd Example/`
  - go to the build phases to update the Localization Sanity Check script:
     replace `${PODS_ROOT}/ADLocalizeChecker/LocalizeChecker` with `${SRCROOT}/LocalizeChecker`
  - use `./LocalizeChecker --help` to see the parameters needed
