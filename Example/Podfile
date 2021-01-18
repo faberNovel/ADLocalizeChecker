@@ -4,6 +4,5 @@ use_frameworks!
 target 'ADLocalizeChecker' do
   pod 'ADUtils', '~> 11.0'
   pod 'SwiftLint', '~> 0.42'
-  ## TODO: (Claire Peyron) 2021/01/15 use version when pod is released
-  pod 'ADLocalizeChecker', :podspec => '../ADLocalizeChecker.podspec'
+  pod 'ADLocalizeChecker', :path => '..'
 end
