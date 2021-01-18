@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ADLocalizeChecker'
-  spec.version      = '0.7.0'
+  spec.version      = '0.7.1'
   spec.authors      = 'FABERNOVEL'
   spec.homepage     = 'https://github.com/faberNovel/ADLocalizeChecker'
   spec.summary      = 'FABERNOVEL\'s iOS Localized Checker'
