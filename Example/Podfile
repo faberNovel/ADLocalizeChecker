@@ -1,0 +1,8 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'ADLocalizeChecker' do
+  pod 'ADUtils', '~> 11.0'
+  pod 'SwiftLint', '~> 0.42'
+  pod 'ADLocalizeChecker', :path => '..'
+end

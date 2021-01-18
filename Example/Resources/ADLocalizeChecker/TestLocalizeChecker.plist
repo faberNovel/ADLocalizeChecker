@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LCLogsEnabled</key>
+	<false/>
+	<key>LCDefaultLanguageFallback</key>
+	<string>fr</string>
+	<key>LCTreatScriptAsError</key>
+	<true/>
+	<key>LCDefaultLocalizableFolder</key>
+	<string>Example/Resources/Defaults</string>
+	<key>LCRelativeToTargetLocalizableBaseFolder</key>
+	<string>Example/Resources</string>
+	<key>LCRelativeSourceFolders</key>
+	<array>
+		<string>Example/ADLocalizeChecker</string>
+	</array>
+	<key>LCPodsVSRelativeLocalizableFolder</key>
+	<dict/>
+	<key>LCKeysToBypass</key>
+	<array>
+		<string>key_to_bypass</string>
+		<string>key_to_bypass_2</string>
+	</array>
+	<key>LCCustomPatterns</key>
+	<array>
+		<string>localisationCustomPattern\(@?&quot;(\w+)&quot;</string>
+	</array>
+	<key>LCUnusedPatterns</key>
+	<array>
+		<string>bypass-custom-unused-error</string>
+	</array>
+</dict>
+</plist>
