@@ -1,5 +1,5 @@
 PODS:
-  - ADLocalizeChecker (0.6.4)
+  - ADLocalizeChecker (0.7.0)
   - ADUtils (11.0.0):
     - ADUtils/objc (= 11.0.0)
   - ADUtils/objc (11.0.0):
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  ADLocalizeChecker: ca8384b74a9110417b576f75c8ec5db8a48abff6
+  ADLocalizeChecker: 4797679236be23cf62e8dc641a07e0c9b7998987
   ADUtils: 5f5f1ad7a097dcf7104f9c160bc23a30d7943eb8
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
 
