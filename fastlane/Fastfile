@@ -1,7 +1,3 @@
-#####################################################
-# TODO: reconnect properly s3
-#####################################################
-
 skip_docs
 
 desc "Run all unit tests"
@@ -49,9 +45,10 @@ end
 
 desc "Publish release"
 lane :publish_release do
-  ensure_git_branch(branch: 'master')
+  ensure_git_branch(branch: 'main')
 
   target_version = version_get_podspec(path: ENV["PODSPEC"])
+  archive
   changelog = read_changelog(
     changelog_path: ENV["CHANGELOG"],
     section_identifier: "[#{target_version}]"
@@ -62,7 +59,8 @@ lane :publish_release do
     name: "v#{target_version}",
     tag_name: "v#{target_version}",
     description: changelog,
-    commitish: "master"
+    commitish: "main",
+    upload_assets: ["../LocalizeChecker.zip"]
   )
 
   pod_push(allow_warnings: true)
@@ -71,6 +69,11 @@ end
 #####################################################
 # Private
 #####################################################
+
+def archive
+  Actions.sh("make -C .. release")
+  Actions.sh("make -C .. clean")
+end
 
 def update_changelog(target_version)
   changelog_path = ENV["CHANGELOG"]
