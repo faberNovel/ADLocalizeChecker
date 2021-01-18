@@ -48,7 +48,7 @@ lane :publish_release do
   ensure_git_branch(branch: 'main')
 
   target_version = version_get_podspec(path: ENV["PODSPEC"])
-  archive
+  Actions.sh("make -C .. release")
   changelog = read_changelog(
     changelog_path: ENV["CHANGELOG"],
     section_identifier: "[#{target_version}]"
@@ -62,6 +62,7 @@ lane :publish_release do
     commitish: "main",
     upload_assets: ["../LocalizeChecker.zip"]
   )
+  Actions.sh("make -C .. clean")
 
   pod_push(allow_warnings: true)
 end
@@ -69,11 +70,6 @@ end
 #####################################################
 # Private
 #####################################################
-
-def archive
-  Actions.sh("make -C .. release")
-  Actions.sh("make -C .. clean")
-end
 
 def update_changelog(target_version)
   changelog_path = ENV["CHANGELOG"]
