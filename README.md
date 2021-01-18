@@ -4,7 +4,7 @@
 
 To run the example project:
  - clone the repo.
- - run `bundle install` and  `cd Example && bundle exec pod install` 
+ - run `bundle install` and  `cd Example && bundle install && bundle exec pod install` 
 
  To use the example project in developpement mode:
  - run `bundle install` and  `make examplebuild` from root folder.
