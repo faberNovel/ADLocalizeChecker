@@ -98,7 +98,7 @@ def bump_podspec(target_version)
 
   pod_install # update the Podfile.lock with the new version
 
-  path = [podspec_path, "Podfile.lock"]
+  path = [podspec_path, "Example/Podfile.lock"]
   git_add(path: path)
   git_commit(
     path: path,
@@ -111,6 +111,8 @@ def target_version_from_branch
 end
 
 def pod_install
-  sh "bundle exec pod install"
+  Dir.chdir("../Example") do
+   sh "bundle exec pod install"
+  end
 end
 
