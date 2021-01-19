@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Fixed
+- fix podspec source path
+
 ## [0.7.2] - 2021-01-19
 
 ### Fixed
