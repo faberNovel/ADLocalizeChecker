@@ -57,7 +57,6 @@ fastlane/Gemfile.lock
 fastlane/.bundle/config
 
 #fastlane plugins
-fastlane/Pluginfile
 Pluginfile_fastlane
 Gemfile_fastlane
 Gemfile_fastlane.lock
