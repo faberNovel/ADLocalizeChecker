@@ -60,7 +60,7 @@ lane :publish_release do
     tag_name: "v#{target_version}",
     description: changelog,
     commitish: "main",
-    upload_assets: ["../LocalizeChecker.zip"]
+    upload_assets: ["LocalizeChecker.zip"]
   )
   Actions.sh("make -C .. clean")
 

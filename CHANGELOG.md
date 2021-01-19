@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [0.7.2] - 2021-01-19
+
+### Fixed
+- fix zip localtion
+
 ## [0.7.1] - 2021-01-18
 
 ### Fixed
